@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(119,112,255);
+  background-color: rgb(182, 178, 245);
   color: white;
   font-family: sans-serif;
 }
@@ -16,7 +16,7 @@ p {
   float: left;
   margin: 10px;
   font-size: 20px;
-  background-color: rgb(188,174,255);
+  background-color: rgb(169, 152, 255);
   border: solid 5px white;
 }
 
