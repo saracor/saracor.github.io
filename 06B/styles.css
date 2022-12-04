@@ -22,7 +22,6 @@ background-color:rgb(169, 170, 236)
 }
 
 #navi {
-  margin: 20px;
   padding: 8px;
   font-size: 18px;
   font-weight: bold;
@@ -31,7 +30,7 @@ background-color:rgb(169, 170, 236)
 
 #verticalnav {
   float: left;
-  width: 9%;
+  width: 12%;
   font-size: 18px;
   font-weight: bold;
   background-color:rgb(84, 87, 238)
@@ -49,7 +48,9 @@ background-color:rgb(169, 170, 236)
 
 
 #section {
+padding: 10px;
 background-image: linear-gradient(rgb(173,158,255), white);
+float: inherit;
 }
 
 a:link {
@@ -62,7 +63,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: rgb(225, 0, 255);
 }
 
 .figure-element {
@@ -72,6 +73,11 @@ a:hover {
 
 ol {
   font-size: 18px;
+}
+
+ul {
+  padding: 10px;
+  margin-left: 10px;
 }
 
 h2 {
