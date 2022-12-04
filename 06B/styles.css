@@ -101,3 +101,7 @@ h2 {
   padding-left: 9%;
   background-color:rgb(169, 170, 236)
 }
+
+.ulmargin li {
+  padding: 10px;
+}
