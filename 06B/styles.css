@@ -30,27 +30,29 @@ background-color:rgb(169, 170, 236)
 
 #verticalnav {
   float: left;
-  width: 12%;
+  width: 9%;
+  height: inherit;
   font-size: 18px;
   font-weight: bold;
-  background-color:rgb(84, 87, 238)
+  background-color:rgb(84, 87, 238);
 }
 
-#verticalnav ul {
+#verticalnav ul li {
   list-style-type: none;
-  padding: 10%;
+  padding: 7%;
+  text-align: center;
+  height: auto;
+}
+
+#sectionnew {
+  background-image: linear-gradient(rgb(173,158,255), white);
+  width: 91%;
   text-align: center;
 }
 
-#verticalnav a {
-  text-decoration: none;
-}
-
-
 #section {
-padding: 10px;
-background-image: linear-gradient(rgb(173,158,255), white);
-float: inherit;
+  background-image: linear-gradient(rgb(173,158,255), white);
+  text-align: center;
 }
 
 a:link {
@@ -84,4 +86,15 @@ h2 {
   text-shadow: 2px 2px #817878;
 }
 
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: flex;
+}
 
+
+#headernew h1 {
+  padding-left: 9%;
+  background-color:rgb(169, 170, 236)
+}
