@@ -10,7 +10,7 @@
   <body>
     <div id="main">
       <div id="header">
-        <img src="images/catbanner4k.png">
+        <img src="images/catbanner4k.png" alt="Website banner">
       </div>
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg bg-light">
@@ -69,7 +69,7 @@
         <script>
           const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     
-    const alert = (message, type) => {
+     const alert = (message, type) => {
       const wrapper = document.createElement('div')
       wrapper.innerHTML = [
         `<div class="alert alert-${type} alert-dismissible" role="alert">`,
@@ -79,14 +79,14 @@
       ].join('')
     
       alertPlaceholder.append(wrapper)
-    }
+     }
     
-    const alertTrigger = document.getElementById('liveAlertBtn')
-    if (alertTrigger) {
+     const alertTrigger = document.getElementById('liveAlertBtn')
+     if (alertTrigger) {
       alertTrigger.addEventListener('click', () => {
         alert('You are awesome!', 'primary')
       })
-    }
+     }
         </script>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
