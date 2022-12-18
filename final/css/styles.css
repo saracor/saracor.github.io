@@ -1,0 +1,26 @@
+#headerimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.headercontainer {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+  }
+
+.lipadding li {
+    padding: 10px;
+    list-style: inside;
+}
+
+.strongtext {
+    font-weight: bold;
+}
