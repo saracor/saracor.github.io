@@ -15,6 +15,7 @@
     color: white;
     font-size: 40px;
     text-size-adjust: auto;
+    word-break:normal!important;
   }
 
 .lipadding li {
@@ -25,3 +26,4 @@
 .strongtext {
     font-weight: bold;
 }
+
