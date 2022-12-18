@@ -22,3 +22,6 @@
     font-weight: bold;
 }
 
+.header {
+    word-break:normal!important;
+}
